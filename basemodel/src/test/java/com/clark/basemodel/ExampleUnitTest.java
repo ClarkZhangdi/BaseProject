@@ -12,6 +12,10 @@ import static org.junit.Assert.*;
 public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() {
+        Integer f1 = 100, f2 = 100, f3 = 150, f4 = 150, f5 = 150, f6 = 160;
+        System.out.println("result f1 == f2 : " + (f1 == f2));
+        System.out.println("result f3 == f4 : " + (f3 == f4));
+        System.out.println("result f5 == f6 : " + (f5 == f6));
         assertEquals(4, 2 + 2);
     }
 }
